@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmongServers.Website", "AmongServers.Website/AmongServers.Website.csproj", "{EAA07F9F-42AA-4F1B-99F9-278EF61C43E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8D6E1E78-B4E7-4626-8993-27864A8E70F0}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\.gitignore.md = ..\..\.gitignore.md
+		..\..\LICENSE = ..\..\LICENSE
+		..\..\README.md = ..\..\README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAA07F9F-42AA-4F1B-99F9-278EF61C43E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAA07F9F-42AA-4F1B-99F9-278EF61C43E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAA07F9F-42AA-4F1B-99F9-278EF61C43E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAA07F9F-42AA-4F1B-99F9-278EF61C43E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {821F3C39-014D-4543-B628-4F454BC691FB}
+	EndGlobalSection
+EndGlobal

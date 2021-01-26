@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="author" content="Among Servers" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="content-language" content="en">
+    <title>Among Servers | Easy to use launcher for Among Us</title>
+    <meta property="og:title" content="Among Servers | Easy to use launcher for Among Us">
+    <meta name="twitter:title" content="Among Servers | Easy to use launcher for Among Us">
+    <meta name="rating" content="safe for kids" />
+    <meta name="description" content="Works with Among Us. Automatically scan for and join private Among Us servers outside the official hosting." />
+    <meta name="keywords" content="among us, among us game, play amoung us, among us servers, servers for among us, among us launcher, private server among us">
+    <meta property="og:site" content=“https://amongservers.com”>
+    <meta property="og:description" content="Works with Among Us. Automatically scan for and join private Among Us servers outside the official hosting.">
+    <meta property="og:site_name" content="Among Servers">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://amongservers.com" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" async>
+    <link rel="apple-touch-icon" sizes="180x180" href="~/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="~/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="~/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="~/images/favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <header>
+        <div class="Container">
+            <div class="Header-Logo">
+                <a href="/">
+                    <img src="~/images/logo.png" alt="AmongServers.com" />
+                </a>
+            </div>
+            <nav>
+                <a href="/">
+                    Get Started
+                </a>
+                <a href="#">
+                    Download
+                </a>
+                <a href="https://github.com/amongservers"
+                   target="_blank">
+                    Github
+                </a>
+            </nav>
+        </div>
+    </header>
+    <main role="main">
+        <div class="Container">
+            @RenderBody()
+        </div>
+    </main>
+
+    <footer>
+        <div class="Container">
+            &copy; 2021 - AmongServers.com. This project is not affiliated with Innersloth.</a>
+        </div>
+    </footer>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

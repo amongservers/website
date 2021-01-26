@@ -1,0 +1,63 @@
+﻿$white: #FFF;
+$black: #3F484F;
+$black-light: lighten($black, 10%);
+$purple: #be2edd;
+$orange: #f0932b;
+
+$mq-mobile: 768px;
+$mq-tablet: 970px;
+$mq-desktop: 1170px;
+
+::selection {
+    background: $orange !important;
+    color: $white;
+}
+
+::-moz-selection {
+    background: $orange !important;
+    color: $white;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background: $black;
+    color: $white;
+    font-size: 16px;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex: 1 0 auto;
+    margin-bottom: 2rem;
+}
+
+div.Container {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 900px;
+}
+
+@import "Elements/button";
+@import "Elements/header";
+@import "Elements/footer";
+@import "Elements/text";
+
+hr{
+    height: 0;
+    border-top: 1px solid $black-light;
+}
+
+.__Mobile{
+    display: none;
+
+    @media only screen and (max-width: $mq-mobile - 1px) {
+        display: block;
+    }
+}
