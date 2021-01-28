@@ -4,40 +4,70 @@
 
 <div class="row">
     <div class="col-sm-12 col-md-8">
-        <h1>Get Started &#128640</h1>
-        <p>Among Servers is an easy to use launcher to connect to Among Us servers not hosted by Innersloth (the creators).</p>
+        <div id="get-started">
+            <h1>Get Started &#128640</h1>
+            <p>Among Servers is an easy to use launcher that allows you to connect to completely private Among Us servers, separate from the official servers hosted by Innersloth (the game creators).</p>
+            <p>Simply download and install the Among Servers launcher and you instantly have access to privately hosted, community servers all around the world. Among Servers is a completely open source project and all source code is available on GitHub. You can download the launcher directly from this page, or build the project yourself.</p>
+            <p>The Among Servers launcher executable will be downloaded within a ZIP file. Extract the ZIP file and run the launcher and you will see the window shown below.</p>
 
-        <div class="__Mobile">
-            <a href="#"
-               class="Button __Primary __Block">
-                <i class="fa fa-download"></i>&nbsp;
-                Download
-            </a>
+            <div class="__Mobile">
+                <a href="https://github.com/amongservers/launcher/releases/download/0.1.1/AmongServers.Launcher.zip"
+                   download
+                   class="Button __Primary __Block">
+                    <i class="fa fa-download"></i>&nbsp;
+                    Download Launcher
+                </a>
+            </div>
+
+            <p>All you need to do is download the launcher ZIP folder and run the EXE inside - when you do that you will see a window like the one below.</p>
+
+            <img src="~/images/launcher.png"
+                 alt="Among Servers Launcher" />
+
+            <br />
+            <br />
+
+            <p>The 'Server' list shows every Among Servers server currently online along with the player count and total number of public and private available lobbies.</p>
+            <p>To connect to a server, press 'PLAY' next to the server that you wish to play on. This will automatically configure and launch your Among Us game so that when you browse for lobbies you will see those available for the server that you picked. The name of the server will also be shown in the bottom right hand corner of the game window.</p>
+            <p>Please note: if you change your game region you will need to close your game and press 'PLAY' within the Among Servers launcher to reconnect to an Among Servers server. This is also how you can revert to using the official Among Us servers.</p>
+            <p>That's it! Have fun!</p>
         </div>
 
-        <img src="~/images/launcher.png"
-             style="width: 90%;" />
+        <br />
+        <br />
 
-        <h2>Host a server</h2>
-
-        <p>Images/videos</p>
-
-        <h2>Connect to a server</h2>
-        <p>Images/videos</p>
+        <div id="create-servers">
+            <h1>Create Servers &#128293</h1>
+            <p>
+                Setting up your server so that it will appear in the Among Servers launcher only takes two steps.
+            </p>
+            <p>
+                The underlying private server software is provided by <a href="https://github.com/Impostor/Impostor" target="_blank" rel="nofollow">Impostor</a>. Follow their <a href="https://github.com/Impostor/Impostor/blob/dev/docs/Running-the-server.md" target="_blank" rel="nofollow">Official Documentation</a> to set up your server and then return to this page for the final step.
+            </p>
+            <p>
+                Once your server is up and running, the final step is simply to add the Among Servers plugin. <a href="https://github.com/amongservers/plugin/releases/download/0.1.1/AmongServers.Plugin.dll" download>Download the plugin</a> to the "plugins" folder within your server's directory (code available on <a href="https://github.com/amongservers/plugin" target="_blank">GitHub</a>).
+            </p>
+            <p>
+                The Among Servers plugin generates a heartbeat which is sent to the Among Servers public API. This is how your server will appear within the Among Servers launcher. The public API must receive a heartbeat from your server every 60 seconds to remain in the list.
+            </p>
+        </div>
     </div>
     <div class="col-sm-12 col-md-4">
-        <a href="#"
+        <a href="https://github.com/amongservers/launcher/releases/download/0.1.1/AmongServers.Launcher.zip"
+           download
            class="Button __Primary __Block">
             <i class="fa fa-download"></i>&nbsp;
-            Download
+            Download Launcher
         </a>
-        <a href="#"
+        <a href="https://github.com/amongservers/launcher/releases/tag/0.1.1"
+           target="_blank"
            class="Button __Secondary __Block">
-            View Release on Github
+            <i class="fab fa-github"></i>&nbsp;
+            View Release on GitHub
         </a>
         <hr />
         <h4>What is this?</h4>
-        <p>Among Servers is a simple plugin that allows you host and join community Among Us servers, separate from the official servers.</p>
+        <p>Among Servers is an open source launcher and server plugin that allows you host and join community Among Us servers, separate from the official servers.</p>
         <br />
         <h4>Why should I use this?</h4>
         <ul>
@@ -51,9 +81,8 @@
                 <b>Community</b>: join the ever-growing, centralised Among Us community to enjoy playing both vanilla and modded versions of the game.
             </li>
         </ul>
-        <p>The offical hosting is shit.</p>
         <br />
         <h4>Credits</h4>
-        <p>Special thanks to the work of <a href="https://github.com/Impostor/Impostor" rel="nofollow" target="_blank">Impostor</a> for creating the ability to host private servers.</p>
+        <p>Special thanks to the creators of <a href="https://github.com/Impostor/Impostor" rel="nofollow" target="_blank">Impostor</a> and those maintaining the project. Among Servers would not be possible without you!</p>
     </div>
 </div>
